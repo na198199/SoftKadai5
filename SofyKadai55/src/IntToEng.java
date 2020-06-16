@@ -32,8 +32,10 @@ public class IntToEng {
     //２桁の取扱い
     
     if(n>10) {
+    	
     	 switch (n%10) {
-			case 0: break;
+			
+    	 	case 0: break;
 			case 1: no = "eleven"; break;
 			case 2: no = "twelve"; break;
 			case 3: no = "thirteen"; break;
@@ -43,6 +45,7 @@ public class IntToEng {
 			case 7: no = "seventeen"; break;
 			case 8: no = "eighteen"; break;
 			case 9: no = "nineteen"; break;
+			
     	}
     }
     	return no;
